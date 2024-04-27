@@ -1,1 +1,1 @@
-# Pi-Pico-W
+# Pi Pico W
