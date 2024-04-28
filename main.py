@@ -5,8 +5,8 @@ from machine import Pin # Importing from the library function Pin
 import time
 
 led = Pin(15, Pin.OUT) # Set led to Pin GP15 and set the pin out
-dotTime = 0.3 # time of blink dot, 0.3s
-dashTime = dotTime * 3 # Time of blink dash is dot * 3, 0.3s * 3 = 0.9s
+dotTime = 0.1 # time of blink dot, 0.1s
+dashTime = dotTime * 3 # Time of blink dash is dot * 3, 0.1s * 3 = 0.3s
 on = 1 # set on to value 1
 off = 0 # set off to value 0
 
